@@ -1,0 +1,32 @@
+.header {
+  color: $white;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 200;
+  margin: 10px;
+
+  .nav__list {
+    display: flex;
+    justify-content: space-evenly;
+
+    &-li {
+      width: 25vw;
+
+      align-items: center;
+    }
+  }
+
+  .nav__link {
+    color: $color-sec;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    padding: 10px;
+    width: 25vw;
+
+    &:hover {
+      background-color: $silver;
+      border-radius: 5px;
+    }
+  }
+}

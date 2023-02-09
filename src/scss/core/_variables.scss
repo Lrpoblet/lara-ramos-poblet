@@ -1,6 +1,21 @@
 // fonts
-$font-main: "Roboto", sans-serif;
+$main-font: 'Open Sans', sans-serif;
+$secondary-font: 'Oswald', sans-serif;
+$size: 18px;
 
 // colors
-// $color-bg: #f3f4f5;
-// $color-secondary: #999;
+$sea-green: #1a8847;
+$light-green: #6bde8c;
+$silver: #b9b6b4;
+$platinum: #e4e4e4;
+$white: #ecf1f2;
+$black: #000;
+
+$color-bg: $platinum;
+$color-sec: $sea-green;
+
+:root {
+  font: $size $main-font;
+  background-color: $color-bg;
+  color: $black;
+}
