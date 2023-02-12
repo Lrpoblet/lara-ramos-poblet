@@ -1,0 +1,7 @@
+@mixin subtitle {
+  font: 24px $secondary-font;
+  color: $sea-green;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 10px;
+}
