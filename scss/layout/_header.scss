@@ -1,13 +1,13 @@
 .header {
-  padding: 10px 0;
-  color: $white;
+  background-color: $white;
   position: fixed;
-  text-align: center;
   z-index: 200;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 14px;
 
   .nav__list {
     display: flex;
-    justify-content: space-evenly;
 
     &-li {
       width: 25vw;
@@ -16,11 +16,12 @@
   }
 
   .nav__link {
+    display: flex;
+    justify-content: center;
     color: $color-sec;
     text-transform: uppercase;
     font-family: $secondary-font;
     padding: 10px;
-    width: 25vw;
 
     &:hover {
       background-color: $silver;

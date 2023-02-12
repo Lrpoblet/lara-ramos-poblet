@@ -142,23 +142,24 @@ a {
   width: 100%; }
 
 .header {
-  padding: 10px 0;
-  color: #ecf1f2;
+  background-color: #ecf1f2;
   position: fixed;
-  text-align: center;
-  z-index: 200; }
+  z-index: 200;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 14px; }
   .header .nav__list {
-    display: flex;
-    justify-content: space-evenly; }
+    display: flex; }
     .header .nav__list-li {
       width: 25vw;
       align-items: center; }
   .header .nav__link {
+    display: flex;
+    justify-content: center;
     color: #1a8847;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
-    padding: 10px;
-    width: 25vw; }
+    padding: 10px; }
     .header .nav__link:hover {
       background-color: #b9b6b4;
       border-radius: 5px; }
@@ -169,7 +170,7 @@ a {
   align-items: center;
   text-align: center; }
   .aboutme__img {
-    margin-top: 10px;
+    margin-top: 20px;
     height: 40vh; }
   .aboutme__info {
     display: flex;
@@ -196,7 +197,7 @@ a {
         color: black;
         border: 1px solid black;
         border-radius: 50%;
-        padding: 10px 13px; }
+        padding: 10px 12px; }
         .aboutme .social__li-icon:hover {
           color: #6bde8c;
           border: 1px solid #6bde8c; }
