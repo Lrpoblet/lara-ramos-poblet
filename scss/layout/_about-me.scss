@@ -8,10 +8,6 @@
   &__img {
     margin-top: 10px;
     height: 40vh;
-
-    &:hover {
-      color: $light-green;
-    }
   }
 
   &__info {
@@ -43,15 +39,16 @@
     &__li {
       padding: 10px;
 
-      &:hover {
-        color: $light-green;
-      }
       &-icon {
         color: black;
-      }
-      &-text {
-        color: black;
-        font-size: 16px;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px 13px;
+
+        &:hover {
+          color: $light-green;
+          border: 1px solid $light-green;
+        }
       }
     }
   }

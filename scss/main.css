@@ -172,8 +172,6 @@ a {
   .aboutme__img {
     margin-top: 10px;
     height: 40vh; }
-    .aboutme__img:hover {
-      color: #6bde8c; }
   .aboutme__info {
     height: 100vh;
     display: flex;
@@ -195,12 +193,13 @@ a {
     justify-content: center; }
     .aboutme .social__li {
       padding: 10px; }
-      .aboutme .social__li:hover {
-        color: #6bde8c; }
       .aboutme .social__li-icon {
-        color: black; }
-      .aboutme .social__li-text {
         color: black;
-        font-size: 16px; }
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 10px 13px; }
+        .aboutme .social__li-icon:hover {
+          color: #6bde8c;
+          border: 1px solid #6bde8c; }
 
 /*# sourceMappingURL=main.css.map */
