@@ -167,13 +167,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  height: 100vh; }
+  text-align: center; }
   .aboutme__img {
     margin-top: 10px;
     height: 40vh; }
   .aboutme__info {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -190,7 +188,8 @@ a {
   .aboutme .social {
     align-items: center;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin: 10px; }
     .aboutme .social__li {
       padding: 10px; }
       .aboutme .social__li-icon {
