@@ -3,12 +3,51 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0 10px;
+
   &__subtitle {
     @include subtitle;
   }
 
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project {
-    width: 100%;
+    width: 80vw;
+    background-color: $white;
+    border: solid black 1px;
+    box-shadow: 8px 16px 32px 0px $sea-green;
+    margin: 10px;
+
+    @media all and (min-width: 768px) {
+      width: 40%;
+    }
+
+    @media all and (min-width: 1026px) {
+      width: 30%;
+    }
+
+    &:hover {
+      background-color: $light-green;
+      opacity: 0.9;
+    }
+
+    &__title {
+      padding: 10px;
+      font-family: $secondary-font;
+    }
+
+    &__image {
+      width: 100%;
+    }
+
+    &__text {
+      margin-bottom: 10px;
+    }
 
     &__links {
       display: flex;
@@ -17,16 +56,14 @@
 
       &-icon {
         padding: 10px;
+        margin: 10px;
+        border: 1px black solid;
 
         &:hover {
-          color: $light-green;
+          color: $sea-green;
+          background-color: $silver;
         }
       }
-    }
-
-    &__image {
-      width: 80%;
-      box-shadow: 8px 16px 32px 0px rgba(0, 0, 0, 0.75);
     }
   }
 }
