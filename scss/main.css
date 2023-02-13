@@ -217,8 +217,7 @@ a {
   .projects__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
+    justify-content: center; }
   .projects .project {
     width: 80vw;
     background-color: #ecf1f2;
@@ -252,5 +251,45 @@ a {
         .projects .project__links-icon:hover {
           color: #1a8847;
           background-color: #b9b6b4; }
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px; }
+  .education__subtitle {
+    font: 24px "Oswald", sans-serif;
+    color: #1a8847;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 10px; }
+  .education__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .education .list {
+    width: 80vw;
+    background-color: #ecf1f2;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 10px; }
+    @media all and (min-width: 768px) {
+      .education .list {
+        width: 40%; } }
+    @media all and (min-width: 1026px) {
+      .education .list {
+        width: 30%; } }
+    .education .list:hover {
+      background-color: #b9b6b4;
+      opacity: 0.9; }
+    .education .list__article {
+      padding: 10px; }
+    .education .list__title {
+      font-family: "Oswald", sans-serif; }
+    .education .list__image {
+      width: 100%;
+      padding: 10px; }
+    .education .list__text {
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
