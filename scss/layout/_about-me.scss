@@ -22,10 +22,38 @@
     &-subtitle {
       @include subtitle;
     }
+  }
+
+  &__section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 
     &-text {
-      width: 90%;
-      align-self: center;
+      margin-bottom: 10px;
+
+      .paragraph {
+        padding: 5px;
+        line-height: 1.2;
+      }
+    }
+
+    &-skills {
+      border: 2px solid $sea-green;
+      border-radius: 20px;
+      padding: 10px;
+      line-height: 1.5;
+    }
+
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+
+      &-text {
+        padding-right: 35px;
+      }
     }
   }
 

@@ -169,6 +169,39 @@ a {
     -ms-transform: translateX(-3px) rotate(-2deg);
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg); } }
+.hand {
+  display: inline-block;
+  animation: hand-animation 4s linear infinite;
+  transform-origin: 70% 70%; }
+
+@keyframes hand-animation {
+  0% {
+    transform: rotate(0deg); }
+  10% {
+    transform: rotate(15deg); }
+  20% {
+    transform: rotate(-9deg); }
+  30% {
+    transform: rotate(15deg); }
+  40% {
+    transform: rotate(-5deg); }
+  50% {
+    transform: rotate(11deg); }
+  60% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
+.text {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 #about-me,
 #projects,
 #education,
@@ -223,9 +256,28 @@ a {
       margin: 10px 0;
       width: 100%;
       opacity: 0.8; }
-    .aboutme__info-text {
-      width: 90%;
-      align-self: center; }
+  .aboutme__section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center; }
+    .aboutme__section-text {
+      margin-bottom: 10px; }
+      .aboutme__section-text .paragraph {
+        padding: 5px;
+        line-height: 1.2; }
+    .aboutme__section-skills {
+      border: 2px solid #1a8847;
+      border-radius: 20px;
+      padding: 10px;
+      line-height: 1.5; }
+    @media all and (min-width: 768px) {
+      .aboutme__section {
+        flex-direction: row; }
+        .aboutme__section-text {
+          padding-right: 35px; } }
   .aboutme .social {
     align-items: center;
     display: flex;
