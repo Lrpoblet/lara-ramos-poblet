@@ -315,8 +315,7 @@ a {
   .projects .project {
     width: 80vw;
     background-color: #ecf1f2;
-    border: solid black 1px;
-    box-shadow: 8px 16px 32px 0px #1a8847;
+    box-shadow: #1a8847 0px 3px 8px;
     margin: 10px; }
     @media all and (min-width: 768px) {
       .projects .project {
