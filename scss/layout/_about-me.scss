@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 90%;
 
     &-title {
       font: 35px $secondary-font;
@@ -22,6 +21,11 @@
 
     &-subtitle {
       @include subtitle;
+    }
+
+    &-text {
+      width: 90%;
+      align-self: center;
     }
   }
 
