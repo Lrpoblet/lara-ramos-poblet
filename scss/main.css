@@ -317,7 +317,7 @@ a {
     background-color: #ecf1f2;
     box-shadow: #1a8847 0px 3px 8px;
     margin: 10px; }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 768px) and (max-width: 1026px) {
       .projects .project {
         width: 40%; } }
     @media all and (min-width: 1026px) {
@@ -386,5 +386,33 @@ a {
       padding: 10px; }
     .education .list__text {
       margin-bottom: 10px; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5; }
+  .contact__subtitle {
+    font: 24px "Oswald", sans-serif;
+    color: #ecf1f2;
+    background-color: #1a8847;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 10px 0;
+    width: 100%;
+    opacity: 0.8; }
+  .contact__list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; }
+    .contact__list-a {
+      color: black;
+      padding: 10px; }
+      .contact__list-a:hover {
+        color: #1a8847; }
+    @media all and (min-width: 768px) {
+      .contact__list {
+        flex-direction: row; } }
 
 /*# sourceMappingURL=main.css.map */

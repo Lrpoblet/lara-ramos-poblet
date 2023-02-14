@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+
+  &__subtitle {
+    @include subtitle;
+  }
+
+  &__list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &-a {
+      color: black;
+      padding: 10px;
+
+      &:hover {
+        color: $sea-green;
+      }
+    }
+
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}

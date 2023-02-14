@@ -20,7 +20,7 @@
     box-shadow: $sea-green 0px 3px 8px;
     margin: 10px;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 768px) and (max-width: 1026px) {
       width: 40%;
     }
 
