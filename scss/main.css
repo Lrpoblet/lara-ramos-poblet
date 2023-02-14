@@ -285,14 +285,17 @@ a {
     margin: 10px; }
     .aboutme .social__li {
       padding: 10px; }
-      .aboutme .social__li-icon {
+      .aboutme .social__li-icon, .aboutme .social__li-cv {
         color: black;
         border: 1px solid black;
         border-radius: 50%;
         padding: 10px 12px; }
-        .aboutme .social__li-icon:hover {
+        .aboutme .social__li-icon:hover, .aboutme .social__li-cv:hover {
           color: #6bde8c;
           border: 1px solid #6bde8c; }
+      .aboutme .social__li-cv {
+        font-size: 15px;
+        font-weight: bold; }
 
 .projects {
   display: flex;
@@ -402,17 +405,20 @@ a {
     margin: 10px 0;
     width: 100%;
     opacity: 0.8; }
+  .contact__text {
+    width: 90%; }
   .contact__list {
     margin-top: 10px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 90%; }
     .contact__list-a {
-      color: black;
-      padding: 10px; }
+      color: black; }
       .contact__list-a:hover {
         color: #1a8847; }
     @media all and (min-width: 768px) {
       .contact__list {
-        flex-direction: row; } }
+        flex-direction: row;
+        justify-content: space-around; } }
 
 /*# sourceMappingURL=main.css.map */

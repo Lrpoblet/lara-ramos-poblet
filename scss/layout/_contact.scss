@@ -9,14 +9,18 @@
     @include subtitle;
   }
 
+  &__text {
+    width: 90%;
+  }
+
   &__list {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    width: 90%;
 
     &-a {
       color: black;
-      padding: 10px;
 
       &:hover {
         color: $sea-green;
@@ -25,6 +29,7 @@
 
     @media all and (min-width: 768px) {
       flex-direction: row;
+      justify-content: space-around;
     }
   }
 }
