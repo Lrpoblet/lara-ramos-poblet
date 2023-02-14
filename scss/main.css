@@ -169,6 +169,13 @@ a {
     -ms-transform: translateX(-3px) rotate(-2deg);
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg); } }
+#about-me,
+#projects,
+#education,
+#experience,
+#contact {
+  scroll-margin-top: 50px; }
+
 .header {
   background-color: #ecf1f2;
   position: fixed;
