@@ -458,4 +458,9 @@ a {
         flex-direction: row;
         justify-content: space-around; } }
 
+.footer {
+  background-color: #b9b6b4;
+  color: #1a8847;
+  padding: 5px 0 5px 30px; }
+
 /*# sourceMappingURL=main.css.map */
