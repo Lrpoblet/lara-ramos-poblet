@@ -20,12 +20,8 @@
     flex-direction: column;
     width: 90%;
 
-    &-a {
-      color: black;
-
-      &:hover {
-        color: $sea-green;
-      }
+    &-a:hover {
+      color: $sea-green;
     }
 
     @media all and (min-width: 600px) {
