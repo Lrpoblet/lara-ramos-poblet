@@ -21,7 +21,7 @@
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     margin: 10px;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) and (max-width: 1026px) {
       width: 40%;
     }
 

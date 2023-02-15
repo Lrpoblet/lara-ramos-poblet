@@ -273,7 +273,7 @@ a {
       border-radius: 20px;
       padding: 10px;
       line-height: 1.5; }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       .aboutme__section {
         flex-direction: row; }
         .aboutme__section-text {
@@ -294,7 +294,7 @@ a {
           color: #6bde8c;
           border: 1px solid #6bde8c; }
       .aboutme .social__li-cv {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold; }
 
 .projects {
@@ -320,7 +320,7 @@ a {
     background-color: #ecf1f2;
     box-shadow: #1a8847 0px 3px 8px;
     margin: 10px; }
-    @media all and (min-width: 768px) and (max-width: 1026px) {
+    @media all and (min-width: 600px) and (max-width: 1026px) {
       .projects .project {
         width: 40%; } }
     @media all and (min-width: 1026px) {
@@ -371,7 +371,7 @@ a {
     background-color: #ecf1f2;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     margin: 10px; }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) and (max-width: 1026px) {
       .education .list {
         width: 40%; } }
     @media all and (min-width: 1026px) {
@@ -417,7 +417,7 @@ a {
       color: black; }
       .contact__list-a:hover {
         color: #1a8847; }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       .contact__list {
         flex-direction: row;
         justify-content: space-around; } }

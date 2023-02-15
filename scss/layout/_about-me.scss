@@ -48,7 +48,7 @@
       line-height: 1.5;
     }
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       flex-direction: row;
 
       &-text {
@@ -79,7 +79,7 @@
         }
       }
       &-cv {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
       }
     }
