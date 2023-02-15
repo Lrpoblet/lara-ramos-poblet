@@ -285,17 +285,14 @@ a {
     margin: 10px; }
     .aboutme .social__li {
       padding: 10px; }
-      .aboutme .social__li-icon, .aboutme .social__li-cv {
+      .aboutme .social__li-a {
+        display: flex;
+        flex-direction: column; }
+        .aboutme .social__li-a:hover {
+          color: #6bde8c; }
+      .aboutme .social__li-icon {
         color: black;
-        border: 1px solid black;
-        border-radius: 50%;
         padding: 10px 12px; }
-        .aboutme .social__li-icon:hover, .aboutme .social__li-cv:hover {
-          color: #6bde8c;
-          border: 1px solid #6bde8c; }
-      .aboutme .social__li-cv {
-        font-size: 14px;
-        font-weight: bold; }
 
 .projects {
   display: flex;

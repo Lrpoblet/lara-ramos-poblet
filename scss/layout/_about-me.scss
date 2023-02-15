@@ -66,21 +66,18 @@
     &__li {
       padding: 10px;
 
-      &-icon,
-      &-cv {
-        color: black;
-        border: 1px solid black;
-        border-radius: 50%;
-        padding: 10px 12px;
+      &-a {
+        display: flex;
+        flex-direction: column;
 
         &:hover {
           color: $light-green;
-          border: 1px solid $light-green;
         }
       }
-      &-cv {
-        font-size: 14px;
-        font-weight: bold;
+
+      &-icon {
+        color: black;
+        padding: 10px 12px;
       }
     }
   }
