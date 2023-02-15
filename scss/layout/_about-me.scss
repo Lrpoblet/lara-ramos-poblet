@@ -32,6 +32,10 @@
     align-items: center;
     justify-content: center;
 
+    @media all and (min-width: 2000px) {
+      max-width: 75%;
+    }
+
     &-text {
       margin-bottom: 10px;
 

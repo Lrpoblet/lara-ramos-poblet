@@ -285,6 +285,9 @@ a {
     align-self: center;
     align-items: center;
     justify-content: center; }
+    @media all and (min-width: 2000px) {
+      .aboutme__section {
+        max-width: 75%; } }
     .aboutme__section-text {
       margin-bottom: 10px; }
       .aboutme__section-text .paragraph {
@@ -354,7 +357,7 @@ a {
     .projects .project__image {
       width: 100%; }
     .projects .project__text {
-      margin-bottom: 10px; }
+      margin: 10px; }
     .projects .project__links {
       display: flex;
       justify-content: center;
@@ -384,7 +387,8 @@ a {
   .story .list {
     background-color: #ecf1f2;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    margin: 10px; }
+    margin: 10px;
+    line-height: 1.2; }
     .story .list:hover {
       background-color: #b9b6b4;
       opacity: 0.9; }
