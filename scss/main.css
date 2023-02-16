@@ -317,7 +317,7 @@ a {
         .aboutme .social__li-a:hover {
           color: #6bde8c; }
       .aboutme .social__li-icon {
-        color: black;
+        color: #000;
         padding: 10px 12px; }
 
 .projects {
@@ -366,7 +366,7 @@ a {
       .projects .project__links-icon {
         padding: 10px;
         margin: 10px;
-        border: 1px black solid; }
+        border: 1px #000 solid; }
         .projects .project__links-icon:hover {
           color: #1a8847;
           background-color: #b9b6b4; }
