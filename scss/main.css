@@ -359,6 +359,9 @@ a {
       width: 100%; }
     .projects .project__text {
       margin: 10px; }
+      .projects .project__text-desc {
+        margin: 10px;
+        font-size: 14px; }
     .projects .project__links {
       display: flex;
       justify-content: center;

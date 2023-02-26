@@ -44,6 +44,11 @@
 
     &__text {
       margin: 10px;
+
+      &-desc {
+        margin: 10px;
+        font-size: 14px;
+      }
     }
 
     &__links {
