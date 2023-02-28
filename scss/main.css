@@ -313,7 +313,8 @@ a {
       padding: 10px; }
       .aboutme .social__li-a {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        width: 20vw; }
         .aboutme .social__li-a:hover {
           color: #6bde8c; }
       .aboutme .social__li-icon {

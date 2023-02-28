@@ -73,6 +73,7 @@
       &-a {
         display: flex;
         flex-direction: column;
+        width: 20vw;
 
         &:hover {
           color: $light-green;
