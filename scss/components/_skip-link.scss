@@ -1,0 +1,12 @@
+.skip-link {
+  background-color: $sea-green;
+  color: $white;
+  border-radius: 5px;
+  padding: 10px 13px;
+  top: 35px;
+  position: relative;
+
+  &:hover {
+    transform: translateY(7px);
+  }
+}
