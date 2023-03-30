@@ -1,12 +1,15 @@
 .skip-link {
+  font: 15px 'Oswald', sans-serif;
   background-color: $sea-green;
   color: $white;
   border-radius: 5px;
-  padding: 10px 13px;
-  top: 35px;
+  padding: 5px;
+  top: 33px;
   position: relative;
+  margin: 5px;
 
   &:hover {
-    transform: translateY(7px);
+    background-color: $light-green;
+    color: $black;
   }
 }
