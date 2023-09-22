@@ -228,6 +228,9 @@ body {
     background-color: #6bde8c;
     color: #000; }
 
+.under-construction {
+  height: 30vh; }
+
 #about-me,
 #projects,
 #story,
